@@ -7,6 +7,6 @@ doc = Nokogiri::HTML(html)
 
 #puts "#{doc}"
 
-doc.css("/tennis/player/_/id/296/novak-djokovic").text
+doc.css("1").text
 #
 # puts "#{dawg}"
