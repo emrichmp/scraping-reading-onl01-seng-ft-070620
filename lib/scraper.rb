@@ -7,4 +7,6 @@ doc = Nokogiri::HTML(html)
 
 #puts "#{doc}"
 
-doc.css("/tennis/player/ /id/296/novak-djokovic")
+dawg = doc.css("/tennis/player/ /id/296/novak-djokovic")
+
+puts "#{dawg}"
