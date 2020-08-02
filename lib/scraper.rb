@@ -5,8 +5,8 @@ html = open("http://www.espn.com/sports/tennis/rankings")
 
 doc = Nokogiri::HTML(html)
 
-puts "#{doc}"
+#puts "#{doc}"
 
-# dawg = doc.css("/tennis/player/ /id/296/novak-djokovic")
+doc.css("/tennis/player/ /id/296/novak-djokovic").text
 #
 # puts "#{dawg}"
