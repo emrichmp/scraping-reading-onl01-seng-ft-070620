@@ -7,6 +7,6 @@ doc = Nokogiri::HTML(html)
 
 #puts "#{doc}"
 
-doc.css("1").text
+doc.css("right").text
 #
 # puts "#{dawg}"
